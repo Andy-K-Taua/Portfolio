@@ -1,0 +1,199 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* .main {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(to right, #cef5e9, #283b61);
+} */
+
+nav {
+  width: 80%;
+  position: sticky;
+  margin: 20px auto;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+ .logo{
+  flex-basis: 30%;
+}
+ .logo img{
+  width: 190px;
+}
+
+ .nav-links{
+     flex: 1;
+     text-align: right;
+}
+ .nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+.nav-links ul li a{
+  color: black;
+  text-decoration: none;
+}
+
+.information{
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  top: 50%;
+  left: -10%;
+  transform: translateY(-50%);
+}
+
+#circle{
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  top: 20px;
+  left: -100px;
+  border-radius: 50%;
+  transform: rotate(0deg);
+  transition: 2s;
+}
+
+.feature img{
+  width: 200px;
+}
+.feature{
+  position: absolute;
+  display: flex;
+  color: #fff;
+}
+.feature div{
+  margin-left: 30px;
+}
+.feature div p{
+  margin-top: 8px;
+}
+
+.one{
+  top: 450px;
+  right: -8%;
+}
+
+.two{
+  top: 150px;
+  left: 350px;
+  transform: rotate(-90deg);
+}
+
+.three
+{
+  bottom: 450px;
+  left: 50px;
+  transform: rotate(-180deg);
+}
+
+.four
+{
+  bottom: 150px;
+  right: 350px;
+  transform: rotate(-270deg);
+}
+/* .image{
+  width: 100px;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translateY(-50%);
+  z-index: 1;
+} */
+
+.controls
+{
+  position: absolute;
+  right: 20%;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
+}
+
+.controls h3
+{
+  margin: 15px;
+  color: #fff;
+}
+
+/* #upBtn{
+  width: 150px;
+  cursor: pointer;
+} */
+
+#downBtn
+{
+  width: 120px;
+  cursor: pointer;
+  transform: rotate(180deg);
+}
+
+.overlay
+{
+  width: 0;
+  height: 0;
+  border-top: 500px solid #fff;
+  border-right: 500px solid transparent;
+  border-bottom: 500px solid #fff;
+  border-left: 500px solid #fff;
+  position: absolute;
+  left: -100px;
+  top: 0;
+}
+
+.LinkedIn
+{
+  color: white
+}
+
+a:link
+{
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: black;
+  text-decoration: none;
+}
+
+.Tic-Tac-Toe
+{
+  color: white;
+}
+
+.Nincha
+{
+  color: white;
+}
+
+.Tap_Star
+{
+  color: white;
+}
+
+.Email
+{
+  color: white;
+}
+
+.Video
+{
+  color: white;
+}
+
+canvas
+{
+display : block;
+margin : auto;
+}
