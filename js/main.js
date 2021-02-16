@@ -67,8 +67,8 @@ class Example extends Phaser.Scene
 
 const config = {
     type: Phaser.WEBGL,
-    width: 2000,
-    height: 1000,
+    width: 5000,
+    height: 5000,
     parent: 'phaser-example',
     scene: [ Example ]
 
