@@ -209,7 +209,9 @@ a:hover
 canvas
 {
 display : block;
-margin : auto;
+margin : 0px -520px 0px 0px;
+width: 1500px;
+height: 800px;
 }
 
 .main
